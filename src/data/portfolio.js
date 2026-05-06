@@ -3,9 +3,9 @@ export const personal = {
   name: "Nadya Theresia Tangkere",
   firstName: "Nadya",
   title: "Data Analyst",
-  tagline: "Turning messy data into decisions that move the needle.",
+  tagline: "Business Analytics • Risk Intelligence • Data-Driven Decisions",
   taglineSub:
-    "I bridge analytical rigor with business context — from mining operations to retail KPIs.",
+    "Transforming operational and financial data into measurable insight through scalable analysis, KPI monitoring, and strategic reporting..",
   location: "Manado, North Sulawesi, Indonesia",
   email: "nadyatangkere@email.com",
   linkedin: "https://www.linkedin.com/in/nadyatangkere/",
@@ -33,17 +33,17 @@ export const projects = [
   {
     id: "mining-analytics",
     featured: true,
-    title: "Mining Operations Analytics",
-    subtitle: "Operational Efficiency · Production Forecasting",
+    title: "Mining Operations Efficiency Analysis",
+    subtitle: "Operational Analytics · Downtime Optimization",
     problem:
-      "A mining company's production data was siloed across departments, making it impossible to correlate equipment downtime with output losses or identify which extraction zones had the best yield-to-cost ratio.",
+      "Mining operational data was fragmented across multiple workflows, limiting visibility into equipment downtime, production bottlenecks, and the operational factors contributing to production loss.",
     insight:
-      "By integrating sensor logs with production records, I found that 23% of downtime was concentrated in two equipment types during a predictable maintenance window — a scheduling shift reduced unplanned stoppages by an estimated 18%.",
+      "Integrated operational logs, maintenance records, and sensor indicators revealed that a small group of equipment contributed disproportionately to downtime. Cycle time analysis also exposed critical bottlenecks linked to elevated vibration and temperature patterns before breakdown events.",
     tools: ["Python", "SQL", "Power BI", "Pandas", "Matplotlib"],
     outcomes: [
-      "Identified top-3 cost drivers in production pipeline",
-      "Built real-time KPI dashboard for ops managers",
-      "Modeled production forecasts with ~91% accuracy (MAE)",
+      "Developed end-to-end analytics workflow from data generation to dashboard reporting",
+      "Built operational KPI dashboard for monitoring downtime, lost production, and maintenance trends",
+      "Identified high-impact bottlenecks and early failure indicators to support targeted maintenance prioritization",
     ],
     github: "https://github.com/nadyatangkere/mining_analytics",
     color: "#1a3a6c",
@@ -51,17 +51,17 @@ export const projects = [
   {
     id: "retail-dashboard",
     featured: false,
-    title: "Retail Performance Dashboard",
-    subtitle: "Sales Analytics · Inventory Optimization",
+    title: "Retail Sales Performance Dashboard",
+    subtitle: "Sales Analytics · Business Performance Monitoring",
     problem:
-      "A retail business had 18 months of transaction data but no consolidated view of which product categories, store locations, or time windows drove the most margin — decisions were being made on intuition.",
+      "A retail store lacked a centralized reporting system to monitor sales performance, product profitability, and monthly target achievement, causing business decisions to rely heavily on manual tracking and assumptions.",
     insight:
-      "SKU-level analysis revealed that 12% of products generated 68% of gross margin. Seasonal reordering patterns were misaligned with demand peaks by 2–3 weeks, creating both stockouts and overstock simultaneously.",
+      "Sales analysis across 3,335 transaction records showed that high-volume products did not always generate strong margins, while several product categories consistently delivered higher profitability despite lower sales volume.",
     tools: ["Excel Advanced", "Power Query", "Pivot Tables", "VBA"],
     outcomes: [
-      "Built dynamic multi-sheet dashboard with drill-down capability",
-      "Surfaced margin leakage worth ~15% of quarterly revenue",
-      "Automated weekly sales report (saved ~4 hrs/week)",
+      "Built dynamic Excel dashboard with automated KPI tracking and drill-down analysis",
+      "Automated monthly sales, profit, and target monitoring using advanced Excel formulas",
+      "Delivered SKU-level and category-level profitability insights to support inventory and sales strategy",
     ],
     github: "https://github.com/nadyatangkere/dashboard_toko_kelontong.git",
     color: "#2a1a5e",
@@ -69,17 +69,17 @@ export const projects = [
   {
     id: "risk-analyst",
     featured: false,
-    title: "Financial Risk Assessment",
-    subtitle: "Credit Risk · Quantitative Analysis",
+    title: "Lending Portfolio Risk Analysis",
+    subtitle: "Credit Risk Analytics",
     problem:
-      "A portfolio of small business loan applications lacked a consistent scoring framework — risk decisions were inconsistent across analysts, and there was no data-backed threshold for rejection vs. approval.",
-    insight:
-      "Logistic regression on historical loan performance showed three variables (debt-service coverage, sector volatility, collateral ratio) explained 79% of default variance. Implementing a tiered scoring model reduced expected portfolio default rate.",
+      "A large-scale lending portfolio faced rising charge-off exposure and weak recovery performance, while existing credit policies and collection strategies lacked data-driven risk evaluation.",
+ insight:
+      "Analysis of 2.26 million loan records revealed consistently high loss given default across all credit grades, ineffective risk-based pricing, and major recovery gaps caused by delayed collection intervention.",
     tools: ["Python", "SQL", "Scikit-learn", "Statsmodels", "Excel"],
     outcomes: [
-      "Built binary classification model (AUC 0.84)",
-      "Defined 3-tier risk band framework for underwriting",
-      "Documented methodology in exec-ready report format",
+      "Analyzed 2.26M loan records using PostgreSQL, Python, and Power BI",
+      "Built expected loss and portfolio risk analysis framework using PD × LGD × EAD methodology",
+      "Produced strategic recommendations for credit scoring, recovery optimization, and risk-based pricing improvement",
     ],
     github: "https://github.com/nadyatangkere/lending-risk-analyst-portfolio.git",
     color: "#0d2a1a",
@@ -132,7 +132,7 @@ export const education = [
     period: "2022 – 2026",
     location: "Manado, Indonesia",
     highlights: [
-      "Relevant coursework: Statistics, Operations Research, Business Analytics",
+      "Relevant coursework: Data Mining, Big Data, Machine Learning, Probabilities & Statistics",
       "Final project: Implementasi Xception-Vision Transformer pada Citra MRI  Otak untuk Mendeteksi Alzheimer",
       "GPA: 3.83 / 4.00",
     ],
@@ -147,9 +147,9 @@ export const experience = [
     period: "October 2024 – December 2024",
     type: "Internship",
     impact: [
-      "Analyzed [X] datasets covering [domain], producing actionable recommendations for [team/decision-maker]",
-      "Built automated reporting workflow reducing manual effort by [X]%",
-      "Presented findings to [stakeholders], influencing [specific business decision]",
+      "Designed 100+ structured test cases based on system requirements to ensure comprehensive functional coverage",
+      "Performed manual testing across positive and negative scenarios to validate business logic and boundary conditions.",
+      "Delivered weekly progress presentations to IT Manager and stakeholders, highlighting development status, risks, and mitigation plans.",
     ],
   },
   {
@@ -158,8 +158,9 @@ export const experience = [
     period: "2025",
     type: "Bootcamp",
     impact: [
-      "Led quantitative component of [project name]",
-      "Produced deliverables used by [X] stakeholders / judges / clients",
+      "Selected through a competitive admission process and successfully completed a 6-month intensive Machine Learning track under a performance-gated system.",
+      "Delivered 4 independent AI projects (Machine Learning, Computer Vision, NLP, and ML System Design)",
+      "Contributed as the Machine Learning role in a team capstone project focused on developing a predictive lead scoring model to prioritize high-potential banking prospects"
     ],
   },
 ];
