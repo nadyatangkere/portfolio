@@ -31,8 +31,6 @@ export default function Hero() {
           <span className={styles.titleText}>{personal.title}</span>
           <span className={styles.titleDivider}>/</span>
           <span className={styles.titleAlt}>Business Analyst</span>
-          <span className={styles.titleDivider}>/</span>
-          <span className={styles.titleAlt}>MT Candidate</span>
         </div>
 
         {/* Tagline */}
