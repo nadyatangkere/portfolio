@@ -1,3 +1,5 @@
+// src/data/portfolio.js
+
 // ─── PERSONAL INFO ────────────────────────────────────────────────────────────
 export const personal = {
   name: "Nadya Theresia Tangkere",
@@ -5,7 +7,7 @@ export const personal = {
   title: "Data Analyst",
   tagline: "Business Analytics • Risk Intelligence • Data-Driven Decisions",
   taglineSub:
-    "Transforming operational and financial data into measurable insight through scalable analysis, KPI monitoring, and strategic reporting..",
+    "Transforming operational and financial data into measurable insight through scalable analysis, KPI monitoring, and strategic reporting.",
   location: "Manado, North Sulawesi, Indonesia",
   email: "nadyatangkere@email.com",
   linkedin: "https://www.linkedin.com/in/nadyatangkere/",
@@ -18,7 +20,7 @@ export const about = {
   paragraphs: [
     "I'm a data analyst with a strong interest in applying quantitative methods to real business problems. My work sits at the intersection of technical analysis and strategic thinking — I don't just build dashboards, I ask what decision the dashboard should enable.",
     "My project experience spans the mining sector, retail performance monitoring, and financial risk assessment. Each has sharpened my ability to move between raw data exploration and executive-level insight communication.",
-    "I'm drawn to roles where data isn't decorative — where a well-framed metric or a clear regression can actually change how a team operates. Whether that's a Data Analyst, Management Trainee, or Business Analyst role, I bring structured thinking and a bias toward action.",
+    "I'm drawn to roles where data isn't decorative — where a well-framed metric or a clear regression can actually change how a team operates. I bring structured thinking, a bias toward action, and the communication skills to make analysis land with the people who need to act on it.",
   ],
   highlights: [
     "End-to-end analysis: EDA → insight → recommendation",
@@ -73,7 +75,7 @@ export const projects = [
     subtitle: "Credit Risk Analytics",
     problem:
       "A large-scale lending portfolio faced rising charge-off exposure and weak recovery performance, while existing credit policies and collection strategies lacked data-driven risk evaluation.",
- insight:
+    insight:
       "Analysis of 2.26 million loan records revealed consistently high loss given default across all credit grades, ineffective risk-based pricing, and major recovery gaps caused by delayed collection intervention.",
     tools: ["Python", "SQL", "Scikit-learn", "Statsmodels", "Excel"],
     outcomes: [
@@ -92,11 +94,11 @@ export const skillGroups = [
     category: "Data & Technical",
     icon: "BarChart2",
     skills: [
-      { name: "Python",    level: 85 },
-      { name: "SQL",       level: 88 },
-      { name: "Power BI",  level: 82 },
-      { name: "Excel Advanced", level: 90 },
-      { name: "Pandas / NumPy", level: 80 },
+      { name: "Python",               level: 85 },
+      { name: "SQL",                  level: 88 },
+      { name: "Power BI",             level: 82 },
+      { name: "Excel Advanced",       level: 90 },
+      { name: "Pandas / NumPy",       level: 80 },
       { name: "Matplotlib / Seaborn", level: 75 },
     ],
   },
@@ -115,11 +117,11 @@ export const skillGroups = [
     category: "Business & Communication",
     icon: "Briefcase",
     skills: [
-      { name: "Business Problem Framing",    level: 88 },
-      { name: "Executive Reporting",         level: 85 },
-      { name: "KPI Design",                  level: 82 },
-      { name: "Stakeholder Communication",   level: 80 },
-      { name: "Process Documentation",       level: 78 },
+      { name: "Business Problem Framing",  level: 88 },
+      { name: "Executive Reporting",       level: 85 },
+      { name: "KPI Design",                level: 82 },
+      { name: "Stakeholder Communication", level: 80 },
+      { name: "Process Documentation",     level: 78 },
     ],
   },
 ];
@@ -133,7 +135,7 @@ export const education = [
     location: "Manado, Indonesia",
     highlights: [
       "Relevant coursework: Data Mining, Big Data, Machine Learning, Probabilities & Statistics",
-      "Final project: Implementasi Xception-Vision Transformer pada Citra MRI  Otak untuk Mendeteksi Alzheimer",
+      "Final project: Implementasi Xception-Vision Transformer pada Citra MRI Otak untuk Mendeteksi Alzheimer",
       "GPA: 3.83 / 4.00",
     ],
   },
@@ -142,14 +144,14 @@ export const education = [
 // ─── EXPERIENCE ───────────────────────────────────────────────────────────────
 export const experience = [
   {
-    company: "PT.Aistech Global Solution / Makassar",
+    company: "PT. Aistech Global Solution / Makassar",
     role: "Quality Assurance Intern / 2 Concurrent Projects",
     period: "October 2024 – December 2024",
     type: "Internship",
     impact: [
       "Designed 100+ structured test cases based on system requirements to ensure comprehensive functional coverage",
-      "Performed manual testing across positive and negative scenarios to validate business logic and boundary conditions.",
-      "Delivered weekly progress presentations to IT Manager and stakeholders, highlighting development status, risks, and mitigation plans.",
+      "Performed manual testing across positive and negative scenarios to validate business logic and boundary conditions",
+      "Delivered weekly progress presentations to IT Manager and stakeholders, highlighting development status, risks, and mitigation plans",
     ],
   },
   {
@@ -158,18 +160,65 @@ export const experience = [
     period: "2025",
     type: "Bootcamp",
     impact: [
-      "Selected through a competitive admission process and successfully completed a 6-month intensive Machine Learning track under a performance-gated system.",
-      "Delivered 4 independent AI projects (Machine Learning, Computer Vision, NLP, and ML System Design)",
-      "Contributed as the Machine Learning role in a team capstone project focused on developing a predictive lead scoring model to prioritize high-potential banking prospects"
+      "Selected through a competitive admission process and completed a 6-month intensive Machine Learning track under a performance-gated system",
+      "Delivered 4 independent AI projects covering Machine Learning, Computer Vision, NLP, and ML System Design",
+      "Contributed as the Machine Learning role in a team capstone project developing a predictive lead scoring model to prioritize high-potential banking prospects",
     ],
+  },
+];
+
+// ─── ORGANIZATIONS & LEADERSHIP ───────────────────────────────────────────────
+export const organizations = [
+  {
+    name: "UKM UNITY UNSRAT",
+    role: "Member of Public Relations",
+    period: "2025 – 2026",
+    type: "Organization",
+    description:
+      "Managed planning and execution of Unity's content strategy, bridging technical topics with accessible public communication.",
+    contributions: [
+      "Wrote engaging copy for Unity-related technical content, turning complex topics into clear and accessible social media posts",
+      "Collaborated with the Learning Quality team to ensure content was accurate and easy to understand",
+      "Worked closely with the design team to create consistent and impactful social media content",
+    ],
+    skills: ["Copywriting", "Cross-Division Collaboration", "Content Strategy"],
+  },
+  {
+    name: "Rekoleksi KMK Fakultas Teknik UNSRAT XXXIV",
+    role: "Event Coordinator",
+    period: "January 2024 – August 2024",
+    type: "Leadership",
+    description:
+      "Led the event division for a 3-day orientation program for new students, managing team coordination, budget, and stakeholder communication end-to-end.",
+    contributions: [
+      "Led a 15-member event division in planning and executing a 3-day program attended by 50+ new students and multi-level stakeholders",
+      "Developed and controlled a comprehensive budget plan (RAB), optimizing cost allocation while maintaining program quality",
+      "Established a structured pre-event timeline to ensure milestone completion and preparation discipline",
+    ],
+    skills: ["Team Leadership", "Project Management", "Budget Planning"],
+  },
+  {
+    name: "Weekend Choice District Manado 54",
+    role: "Secretary",
+    period: "February 2024 – August 2024",
+    type: "Organization",
+    description:
+      "Served as secretary for a district-level youth community, responsible for administrative coordination and documentation across organizational activities.",
+    contributions: [
+      "Managed official correspondence, meeting minutes, and documentation for district-level programs",
+      "Coordinated scheduling and logistics across committees to ensure smooth execution of community activities",
+      "Supported internal communication and record-keeping to maintain organizational accountability",
+    ],
+    skills: ["Administration", "Communication", "Organizational Coordination"],
   },
 ];
 
 // ─── NAV LINKS ────────────────────────────────────────────────────────────────
 export const navLinks = [
-  { label: "About",      href: "#about" },
-  { label: "Projects",   href: "#projects" },
-  { label: "Skills",     href: "#skills" },
-  { label: "Experience", href: "#experience" },
-  { label: "Contact",    href: "#contact" },
+  { label: "About",         href: "#about" },
+  { label: "Projects",      href: "#projects" },
+  { label: "Skills",        href: "#skills" },
+  { label: "Experience",    href: "#experience" },
+  { label: "Organizations", href: "#organizations" },
+  { label: "Contact",       href: "#contact" },
 ];

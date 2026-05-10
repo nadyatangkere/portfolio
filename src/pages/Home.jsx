@@ -4,6 +4,7 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
+import Organizations from '../components/Organizations';
 import Contact from '../components/Contact';
 
 export default function Home() {
@@ -18,6 +19,8 @@ export default function Home() {
       <Skills />
       <div className="section-divider" />
       <Experience />
+      <div className="section-divider" />
+      <Organizations />
       <div className="section-divider" />
       <Education />
       <div className="section-divider" />
